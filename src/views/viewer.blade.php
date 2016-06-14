@@ -154,7 +154,7 @@
             </div>
         </div>
 
-        {{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') }}
+        {{ HTML::script('//libs.baidu.com/jquery/2.0.0/jquery.min.js') }}
         <script>window.jQuery || document.write('<script src="{{ URL::to("packages/kmd/logviewer/js/jquery-1.10.2.min.js") }}"><\/script>')</script>
         {{ HTML::script('//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js') }}
         {{ HTML::script('packages/kmd/logviewer/js/script.js') }}
